@@ -1,9 +1,8 @@
-
 #include <iostream>
 
 int main() {
-long int n = 59;
-long int arr[n+1],i;
+int n = 59;
+int arr[n+1],i;
 
 arr[0] = 0;
 arr[1] = 1;
