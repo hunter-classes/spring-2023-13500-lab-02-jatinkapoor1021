@@ -1,6 +1,5 @@
 #include <iostream>
 
-using namespace std;
 
 int main()
 
@@ -8,21 +7,21 @@ int main()
 
 int n;
 
-cout <<"Please enter an integer: " ;
+std::cout <<"Please enter an integer: " ;
 
-cin>>n;
+std::cin>>n;
 
 while(n>=100||n<=0)
 
 {
 
-cout<<"Please re-enter: ";
+std::cout<<"Please re-enter: ";
 
-cin>>n;
+std::cin>>n;
 
 }
 int answer = n*n;
-cout<<"Number squared is "<<answer<<endl;
+std::cout<<"Number squared is "<<answer<<std::endl;
 return 0;
 
 }
